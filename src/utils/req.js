@@ -4,7 +4,7 @@ import { ANS_CONTRACT_ADDRESS } from "./constants.js";
 
 export async function getRecordValue(domain) {
   try {
-    const record = await resoleDomain(domain);
+    const record = await resolveDomain(domain);
     const tx = await axios.get(`https://arweave.net/${record}`, {
       responseType: "arraybuffer",
     });
@@ -15,7 +15,7 @@ export async function getRecordValue(domain) {
   }
 }
 
-export async function resoleDomain(domain) {
+export async function resolveDomain(domain) {
   try {
     const normalizedDomain = _normalizeDomain(domain);
     const ans_state = (
