@@ -9,9 +9,16 @@
 ## About
 DNS resolver for [ANS](https://ans.gg) domains. The gateway resolves the data TX assigned to a given ANS domain's `A record`.
 
+## Gateways
+
+1- [arweave.gg](http://arweave.gg)
+
+2- [arweave.bio](http://arweave.bio)
+
+
 ## Example
 
-`ans_domain.arweave.gg` : [da2.arweave.gg](http://da2.arweave.gg)
+`ans_domain.gateway_endpoint.TLD` : [da2.arweave.gg](http://da2.arweave.gg)
 
 ## License
 This projects is licensed under the [MIT License](./LICENSE)
