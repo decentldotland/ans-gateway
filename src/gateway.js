@@ -22,7 +22,7 @@ app.get("/", async (req, res) => {
   res.send(Buffer.from(content?.data, "binary"));
   res.end();
   } catch(error) {
-    res.redirect(`https://www.youtube.com/watch?v=dQw4w9WgXcQ`); // TODO, error handling
+    res.redirect(`https://decent.land`);
     res.end();
   }
 });
