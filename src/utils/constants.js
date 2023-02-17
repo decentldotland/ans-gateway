@@ -1,1 +1,1 @@
-export const ANS_CONTRACT_ADDRESS = `XBNIlekToc-4qzsefbhkra0mqTmvG_lvbav4Efh1l3U`;
+export const ANS_CONTRACT_ADDRESS = `VGWeJLDLJ9ify3ezl9tW-9fhB0G-GIUd60FE-5Q-_VI`;
