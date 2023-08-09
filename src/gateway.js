@@ -22,7 +22,7 @@ app.get("/", async (req, res) => {
   res.send(Buffer.from(content?.data, "binary"));
   res.end();
   } catch(error) {
-    res.redirect(`https://decent.land`);
+    res.redirect(`https://ans.gg`);
     res.end();
   }
 });
