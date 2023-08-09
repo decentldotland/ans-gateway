@@ -19,7 +19,7 @@ export async function resolveDomain(domain) {
   try {
     const normalizedDomain = _normalizeDomain(domain);
     const ans_state = (
-      await axios.get(`https://api.exm.dev/read/${ANS_CONTRACT_ADDRESS}`)
+      await axios.get(`https://api.mem.tech/api/state/${ANS_CONTRACT_ADDRESS}`)
     )?.data;
     const domainOwnerIndex = ans_state.balances.findIndex((user) =>
       user.ownedDomains.map((d) => d.domain).includes(normalizedDomain)

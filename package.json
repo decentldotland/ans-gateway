@@ -1,6 +1,6 @@
 {
   "name": "ans-gateway",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "DNS resolver for ANS domains",
   "main": "./src/gateway.js",
